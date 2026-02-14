@@ -32,4 +32,33 @@ This application allows users to create, update, delete, and manage daily tasks 
 ---
 
 ## 📂 Project Structure
+todo-app/
+│
+├── backend/myproject # Django REST API
+│ ├── manage.py
+│ ├── todo/
+│ ├── requirements.txt
+│ └── db.sqlite3
+│
+├── frontend/ # React Application
+│ ├── src/
+│ ├── public/
+│ └── package.json
+│
+└── README.md
 
+API ENDPOINTS
+| Method | Endpoint         | Description        |
+| ------ | ---------------- | ------------------ |
+| GET    | /api/todos/      | Retrieve all tasks |
+| POST   | /api/todos/      | Create a new task  |
+| PUT    | /api/todos/<id>/ | Update a task      |
+| DELETE | /api/todos/<id>/ | Delete a task      |
+
+
+Images
+![alt text](image.png)
+![alt text](image-1.png)
+
+Roshan Poudel
+Electronics and Computer Engineering Student
