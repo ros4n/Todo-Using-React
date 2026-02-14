@@ -31,21 +31,7 @@ This application allows users to create, update, delete, and manage daily tasks 
 
 ---
 
-## 📂 Project Structure
-todo-app/
-│
-├── backend/myproject # Django REST API
-│ ├── manage.py
-│ ├── todo/
-│ ├── requirements.txt
-│ └── db.sqlite3
-│
-├── frontend/ # React Application
-│ ├── src/
-│ ├── public/
-│ └── package.json
-│
-└── README.md
+
 
 API ENDPOINTS
 | Method | Endpoint         | Description        |
